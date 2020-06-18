@@ -1,0 +1,187 @@
+/*muestra en el footer los desarrolladores del sistema*/
+.credito{
+
+  position:absolute;
+	 
+  bottom:0px;
+	right:37%;
+	color:red;
+  position: fixed;
+
+}
+
+/*pone de color blanco cuando muestra la hora de entrada y salida del personal*/
+.horaes{
+	color:white;
+}
+
+/*hace que sea de color blanco las letras de la tabla cuando el personal pasa el carnet*/
+.datosempleado{
+	color: white;
+}
+
+/*es el scroll del registro mensual de los empleados*/
+.scroll{
+        /*border:1px solid;*/
+        height:39em;
+        width:100% ;
+        overflow-y:scroll;
+        overflow-x:hidden;
+
+    }
+
+   
+/*es el scroll del registro mensual personal  de los empleados*/
+/*.scrollmodal{
+        border:1px solid;
+        height:49em;
+        width:100% ;
+        overflow-y:scroll;
+       overflow-x:hidden;
+    }*/
+
+
+
+/*el modal que muestra el registro de asistencia mensual de un empleado */
+
+.modal-lg {
+       max-width: 100% !important;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/* se encarga de crear scroll para las tablas asi como centrar texto y fijar el titulo de cada tabla para que no baje con el scroll*/
+table,tr,th,td{
+  /*border:1px solid #dddddd;
+  border-collapse:collapse;*/
+}
+.tbl-header{
+  width:calc(100% - 17px);
+  width:-webkit-calc(100% - 17px);
+  width:-moz-calc(100% - 17px);
+}
+
+#tablauno{
+    max-width:100%;
+}
+
+#tablados{
+    width:100%;
+    /*overflow:auto;*/
+     overflow-y:scroll;
+     max-height:480px;
+}
+
+.alineartexto{
+    text-align: center;
+    width:100%;
+}
+.anchocasilla{
+     width:15%
+}
+
+.inicio_tabla{
+  display: none;
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* alinea el titulo del modal para registrar empleado*/
+.modal-title {
+ text-align: center;
+  width: 100%; 
+} 
+/*________________________________________________________________________________________________________________________________*/
+
+
+/*____________________________________________________centra el mensaje en head de cambiar clave_______________________________*/
+
+
+
+
+.alinear{
+  text-align: center;
+}
+
+
+
+/*________________________________________________________________________________________________________________________________________*/
+
+
+/*---------------------------------------------CAMBIA EL ESTILO DEL LOGIN ORIGINAL A UNO PERSONALIZADO--------------------------------------*/
+
+/*.cuerpo{
+  font-family: Arial;
+  
+  color: red;
+  margin-bottom: 2rem;
+  margin-top: 7rem;
+  background: rgba(0,0,0,.6);
+  padding: 10px;
+  width: 100%;
+}
+
+
+
+
+.card-header{
+  text-align: center;
+  font-size: 1.5em;
+
+
+}
+
+.btn-danger{
+    background-color: red;
+}*/
+
+.card{
+   margin-top: 7rem;
+   
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------RESPONSIVE--------------------------------------------------------------*/
+
+@media only screen and (max-width: 767px){
+
+
+.credito{
+
+  position:relative;
+   
+  bottom:0px;
+  right:10%;
+  color:red;
+  display: none;
+
+}
+
+/*---------------------------------------------------------TABLAS---------------------------------------------------------------*/
+
+.tbl-header{
+ display: none;
+}
+
+
+/*.buscar{
+  margin-bottom: 30px;
+}*/
+
+.inicio_tabla {
+  display: ;
+  
+}
+
+
+

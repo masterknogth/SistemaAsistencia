@@ -1,0 +1,80 @@
+.navbar-nav a {
+  color: #fff !important;
+}
+.navbar-nav a:hover {
+  color: black !important;
+  /*color: #D8D8D8 !important;*/
+}
+
+
+.nav-item{
+   margin-right: 100px;
+}
+
+.navbar-brand{
+   margin-left: 100px;
+}
+
+
+
+.navbar-nav .submenu.level-2 {
+  padding-left: 1.5rem;
+}
+
+.navbar-nav .submenu.level-1 {
+ 
+  z-index:1;/*el submenu aparecera encima de todo*/
+}
+.navbar-nav .dropdown-toggle::after {
+  display: none;
+}
+
+.icon{
+  margin-right: 10px;
+  margin-bottom: 2px; 
+}
+
+
+
+@media (min-width: 768px) {
+  .navbar-nav .dropdown .submenu {
+    position: absolute;
+    top: 100%;
+    display: none;
+  }
+  .navbar-nav .dropdown .submenu li {
+    display: block;
+  }
+  .navbar-nav .dropdown .submenu li a {
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  .navbar-nav .dropdown .submenu.level-1 {
+    right: 0px;
+    left: auto;
+    width: 200px;
+
+
+  }
+  /*
+  .navbar-nav .dropdown .submenu.level-2 {
+    padding-left: 0;
+    top: 0;
+    right: 100%;
+    left: auto;
+  }*/
+  .navbar-nav .dropdown:hover .submenu.level-1 {
+    display: block;
+  }
+  .navbar-nav .dropdown:hover .submenu.level-1 li {
+    position: relative;
+  }
+  /*
+  .navbar-nav .dropdown:hover .submenu.level-1 li:hover .submenu.level-2 {
+    display: block;
+  }*/
+  .navbar-nav .dropdown-toggle::after {
+    display: inline-block;
+  }
+}
